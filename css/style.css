@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 12px;
+    color: #FFFFFF;
+    background: #000000;
+}
+
+.div-game {
+    margin: 5% auto;
+    width: 480px;
+    height: 420px;
+}
+
+.div-score {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 30px;
+    color: #000000;
+    background: #C0C0C0;
+    border-top: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+}
+
+.img-mines, .div-mines, .img-time, .img-smiles, .div-time, .lb-level, .bn-reset {
+    position: absolute;
+}
+
+.img-mines {
+    top: 6px;
+    left: 10px;
+}
+
+.div-mines {
+    top: 6px;
+    left: 30px;
+    width: 40px;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: #0000CF;
+    background: transparent;
+}
+
+.img-time {
+    top: 6px;
+    left: 80px;
+}
+
+.div-time {
+    top: 6px;
+    left: 100px;
+    width: 60px;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: #007F00;
+    background: transparent;
+}
+
+.img-smiles {
+    top: 6px;
+    left: 240px;
+}
+
+.lb-level {
+    top: 4px;
+    left: 330px;
+    width: 80px;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.bn-reset {
+    top: 3px;
+    left: 420px;
+    width: 50px;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+}
+
+.div-board {
+    position: relative;
+    width: 480px;
+    height: 320px;
+    color: #000000;
+    background: #7F7F7F;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+}
+
+.cell {
+    position: absolute;
+    overflow: hidden;
+}
+
+.div-adsense {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+.div-addfreestats {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}

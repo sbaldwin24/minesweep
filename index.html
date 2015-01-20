@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Minesweep</title>
+    <meta name="author" content="Sterling Baldwin">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="div-game" class="div-game">
+        <div id="div-score" class="div-score">
+            <img id="img-mines" class="img-mines" src="images/mines.png" />
+            <div id="div-mines" class="div-mines"></div>
+            <img id="img-time" class="img-time" src="images/clock.png" />
+            <div id="div-time" class="div-time">00:00</div>
+            <img id="img-smiles" class="img-smiles" />
+            <select id="lb-level" class="lb-level" onchange="game.restart()" name="bn-reset" />
+            <option selected value="easy">Easy</option>
+            <option value="normal">Normal</option>
+            <option value="advanced">Advanced</option>
+            <option value="hard">Hard</option>
+            <option value="expert">Expert</option>
+            </select>
+            <input id="bn-reset" type="button" class="bn-reset" onclick="game.restart()" value="Play!" name="bn-reset" />
+        </div>
+        <div id="div-board" class="div-board"></div>
+
+    <script type="text/javascript" src="script/script.js"></script>
+
+</body>
+
+</html>
